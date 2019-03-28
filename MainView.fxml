@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.contr">
+   <children>
+      <Label fx:id="lblName" layoutX="231.0" text="Pizza Tempo" textFill="#b51717">
+         <font>
+            <Font name="Blackadder ITC" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn4Season" layoutX="32.0" layoutY="105.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="4 сезона" textFill="#dd0909" />
+      <Button fx:id="btnApp" layoutX="32.0" layoutY="151.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Аппетитная" textFill="#dd0909" />
+      <Button fx:id="btnVen" layoutX="32.0" layoutY="245.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Венецианская" textFill="#dd0909" />
+      <Button fx:id="btnVez" layoutX="32.0" layoutY="199.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Везувий" textFill="#dd0909" />
+      <Button fx:id="btnGre" layoutX="32.0" layoutY="338.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Греческая" textFill="#dd0909" />
+      <Button fx:id="btnGav" layoutX="32.0" layoutY="292.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Гавайская" textFill="#dd0909" />
+      <Button fx:id="btnDer" layoutX="32.0" layoutY="433.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Деревенская" textFill="#dd0909" />
+      <Button fx:id="btnGri" layoutX="32.0" layoutY="387.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Грибная" textFill="#dd0909" />
+      <Button fx:id="btnMarin" layoutX="32.0" layoutY="527.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Маринара" textFill="#dd0909" />
+      <Button fx:id="btnMar" layoutX="32.0" layoutY="481.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Маргарита" textFill="#dd0909" />
+      <Button fx:id="btnRim" layoutX="177.0" layoutY="481.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Римская" textFill="#3d0bc6" />
+      <Button fx:id="btnRom" layoutX="177.0" layoutY="527.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Ромео" textFill="#3d0bc6" />
+      <Button fx:id="btnPik" layoutX="177.0" layoutY="387.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Пикантная" textFill="#3d0bc6" />
+      <Button fx:id="btnPov" layoutX="177.0" layoutY="433.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Повседневная" textFill="#3d0bc6" />
+      <Button fx:id="btnPal" layoutX="177.0" layoutY="292.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Палитра сыров" textFill="#3d0bc6" />
+      <Button fx:id="btnPep" layoutX="177.0" layoutY="338.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Пеперони" textFill="#3d0bc6" />
+      <Button fx:id="btnOso" layoutX="177.0" layoutY="199.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Особенная" textFill="#3d0bc6" />
+      <Button fx:id="btnOxo" layoutX="177.0" layoutY="245.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Охотничья" textFill="#3d0bc6" />
+      <Button fx:id="btnOgn" layoutX="177.0" layoutY="151.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Огненная" textFill="#3d0bc6" />
+      <Button fx:id="btnNar" layoutX="177.0" layoutY="105.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Народная" textFill="#3d0bc6" />
+      <Button fx:id="btnKarys" layoutX="321.0" layoutY="481.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Каруселька" textFill="#0b8a13" />
+      <Button fx:id="btnKorab" layoutX="321.0" layoutY="527.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Кораблик" textFill="#0b8a13" />
+      <Button fx:id="btnFlo" layoutX="321.0" layoutY="387.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Флорентийская" textFill="#0b8a13" />
+      <Button fx:id="btnStu" layoutX="321.0" layoutY="433.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Студенчиская" textFill="#0b8a13" />
+      <Button fx:id="btnTsvin" layoutX="321.0" layoutY="292.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Т. со свининой" textFill="#0b8a13" />
+      <Button fx:id="btnTut" layoutX="321.0" layoutY="338.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Тут бай" textFill="#0b8a13" />
+      <Button fx:id="btnTvet" layoutX="321.0" layoutY="199.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Т. с ветчиной" textFill="#0b8a13" />
+      <Button fx:id="btnTkyr" layoutX="321.0" layoutY="245.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Т. с курицей" textFill="#0b8a13" />
+      <Button fx:id="btnSor" layoutX="321.0" layoutY="151.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Соренто" textFill="#0b8a13" />
+      <Button fx:id="btnSic" layoutX="321.0" layoutY="105.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Сицилийская" textFill="#0b8a13" />
+      <Button fx:id="btnAngry" layoutX="458.0" layoutY="105.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Энгри бёрдс" textFill="#b80fdd" />
+      <Button fx:id="btnBar" layoutX="458.0" layoutY="152.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Барбекю" textFill="#b80fdd" />
+      <Button fx:id="btnBor" layoutX="458.0" layoutY="198.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Боровик" textFill="#b80fdd" />
+      <Button fx:id="btnTex" layoutX="458.0" layoutY="292.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Техас" textFill="#b80fdd" />
+      <Button fx:id="btnMas" layoutX="458.0" layoutY="246.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Мясная" textFill="#b80fdd" />
+      <Button fx:id="btnKyrspep" layoutX="458.0" layoutY="339.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Курица с пеперони" textFill="#b80fdd">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPigKyr" layoutX="458.0" layoutY="480.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Пигата с курицей" textFill="#b80fdd">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPigVet" layoutX="458.0" layoutY="387.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Пигата с ветчиной" textFill="#b80fdd" />
+      <Button fx:id="btnPigGov" layoutX="458.0" layoutY="433.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="121.0" text="Пигата с говядиной" textFill="#b80fdd">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

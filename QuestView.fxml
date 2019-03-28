@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quest.QuestContr">
+   <children>
+      <ListView fx:id="resList" layoutX="378.0" layoutY="93.0" prefHeight="177.0" prefWidth="200.0" />
+      <Label fx:id="lblName" layoutX="217.0" layoutY="20.0" prefHeight="25.0" prefWidth="134.0" text="Сборка пиццы">
+         <font>
+            <Font name="Bodoni MT" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCreate" layoutX="56.0" layoutY="443.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Собрать" />
+      <Button fx:id="btnNext" layoutX="165.0" layoutY="443.0" mnemonicParsing="false" text="Следующая" />
+      <Button fx:id="btnClear" layoutX="266.0" layoutY="443.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Cброс" />
+      <Label fx:id="lblQuest" alignment="CENTER" layoutX="129.0" layoutY="70.0" prefHeight="39.0" prefWidth="176.0" text="Пицца для сборки :" textFill="#250dd9" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ListView fx:id="decList" layoutX="378.0" layoutY="335.0" prefHeight="124.0" prefWidth="200.0" />
+      <Label fx:id="lblRes" alignment="CENTER" layoutX="397.0" layoutY="70.0" prefHeight="17.0" prefWidth="163.0" text="Ингридиенты">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDec" alignment="CENTER" layoutX="397.0" layoutY="315.0" prefHeight="17.0" prefWidth="163.0" text="Украшения">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="createList" layoutX="85.0" layoutY="201.0" prefHeight="213.0" prefWidth="242.0" />
+      <Button fx:id="btnAddDec" layoutX="452.0" layoutY="468.0" mnemonicParsing="false" text="Добавить" />
+      <Button fx:id="btnAddRes" layoutX="452.0" layoutY="277.0" mnemonicParsing="false" text="Добавить" />
+      <Label fx:id="lblRandomName" alignment="CENTER" layoutX="81.0" layoutY="109.0" prefHeight="58.0" prefWidth="259.0" textFill="#f20404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblWin" layoutX="21.0" layoutY="533.0" prefHeight="39.0" prefWidth="69.0" text="Успехов : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCountWin" layoutX="97.0" layoutY="533.0" prefHeight="39.0" prefWidth="28.0" textFill="#ee0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLoose" layoutX="144.0" layoutY="533.0" prefHeight="39.0" prefWidth="69.0" text="Неудач : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCountLoose" layoutX="213.0" layoutY="533.0" prefHeight="39.0" prefWidth="28.0" textFill="#ee0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblChoise" layoutX="258.0" layoutY="533.0" prefHeight="39.0" prefWidth="81.0" text="Попыток : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCountChoise" layoutX="347.0" layoutY="533.0" prefHeight="39.0" prefWidth="28.0" textFill="#ee0000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
